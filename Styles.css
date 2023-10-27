@@ -1,0 +1,214 @@
+CSS (styles.css):
+
+```css
+/* Reset default margin and padding */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, Sans-Serif, Bold;
+  background-color: #e83f3f;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: #fdd835;
+  text-align: center;
+}
+
+nav {
+  background-color: #e83f3f;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a.active {
+  color: #fdd835;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fdd835;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #fdd835;
+}
+
+CSS (styles.css):
+
+/* Add the following code at the end of styles.css */
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  margin: 10px;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.product a.button:hover {
+  background-color: #45a049;
+}
+.product h3 {
+  margin: 10px ;
+}
+
+.product p {
+  color: #666;
+}
+
+
+
+
+CSS (styles.css):
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, Sans-Serif;
+  background-color: #e83f3f;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: #fdd835;
+  text-align: center;
+}
+
+nav {
+  background-color: #e83f3f;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a.active {
+  color: #fdd835;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fdd835;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #fdd835;
+}
+
+.category-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.category {
+  margin: 10px;
+}
+
+.category img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.category h3 {
+  margin-top: 10px;
+}
